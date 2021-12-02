@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, #banner-content {
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    width: 80%;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: .3rem;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+
+/** HEADER **/
+
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+
+#nav-left h2 {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+}
+
+#nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#nav-right a {
+    text-decoration: none;
+    color: #E6E7EB;
+    font-size: 1.125rem;
+}
+
+/** BANNER **/
+
+#banner-content {
+    margin: 0;
+    display: flex;
+    padding: 3rem 10rem;
+    justify-content: space-between;
+}
+
+.banner-container {
+    width: 40%;
+    margin: 5rem 0;
+}
+
+.banner-container h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.banner-right {
+    background-color: gray;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-right p {
+    color: #E5E8EB;
+}
+
+/** RANDOM INFO **/
+
+#random-info {
+    width: 80%;
+    margin: auto;
+}
+
+#random-info h1 {
+    text-align: center;
+    margin: 2rem 0; 
+}
+
+#random-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-container {
+    width: 20%;
+}
+
+.blue-box { 
+    border: 2px solid #3882F6;
+    border-radius: .7rem;
+    height: 12rem;
+}
